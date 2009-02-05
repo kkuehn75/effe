@@ -3,9 +3,10 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = 
+TARGET =
 DEPENDPATH += .
 INCLUDEPATH += .
+QT += webkit
 
 # Input
 SOURCES += effe.cpp

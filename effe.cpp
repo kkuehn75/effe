@@ -1,10 +1,11 @@
  #include <QApplication>
- #include <QLabel>
+ #include <qwebview.h>
 
  int main(int argc, char *argv[])
  {
      QApplication app(argc, argv);
-     QLabel label("This is the start!");
-     label.show();
+     QWebView view;
+     view.load(QUrl("http://maps.google.com/maps?hl=en&tab=wl"));
+     view.show();
      return app.exec();
  }
