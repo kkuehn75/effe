@@ -1,6 +1,11 @@
 This is a mobile phone application to help find buses and subways in your city.
 
-## I added a Gogle map window now.
+## I added a Google map window now.
 ## I have added a exit button. 
 ## Added commit to the app
 ## Added a main window ( still trying to get all 3 parts of the app on the main window.) work in prog.
+
+(3/10/09)
+## Add mainwndow.h and mainwindow.cpp
+## removed the Menus form the mainwindow
+## moved the google map in to the manwindow
